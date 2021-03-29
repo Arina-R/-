@@ -1,0 +1,10 @@
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\bin\Debug\Prakt.exe.config
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\bin\Debug\Prakt.exe
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\bin\Debug\Prakt.pdb
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.csprojAssemblyReference.cache
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.Form1.resources
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.Properties.Resources.resources
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.csproj.GenerateResource.cache
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.csproj.CoreCompileInputs.cache
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.exe
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.pdb
