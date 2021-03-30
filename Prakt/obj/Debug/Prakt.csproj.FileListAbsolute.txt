@@ -8,3 +8,5 @@ D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.csproj.Generate
 D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.csproj.CoreCompileInputs.cache
 D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.exe
 D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.pdb
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.Teacher.resources
+D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.Form2.resources

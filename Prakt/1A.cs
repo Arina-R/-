@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Prakt
 {
-    public partial class Teacher : Form
+    public partial class _1A : Form
     {
-        public Teacher()
+        public _1A()
         {
             InitializeComponent();
-        }
-
-        private void but_Teacher_Click(object sender, EventArgs e)
-        {
-            if(TB_log.Text =="admin"&& TB_pass.Text == "123456789")
-            {
-
-            }
         }
     }
 }
