@@ -219,6 +219,7 @@
             this.Controls.Add(this.l_1cl);
             this.Controls.Add(this.l_1_Rasp);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);

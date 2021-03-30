@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.l_1_Rasp = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.but_Teacher = new System.Windows.Forms.Button();
             this.l_1cl = new System.Windows.Forms.Label();
             this.l_4cl = new System.Windows.Forms.Label();
             this.l_2cl = new System.Windows.Forms.Label();
@@ -57,27 +55,6 @@
             this.l_1_Rasp.TabIndex = 0;
             this.l_1_Rasp.Text = " Расписание уроков\r\nдля начальных классов";
             this.l_1_Rasp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(340, 356);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Для редактирования:";
-            // 
-            // but_Teacher
-            // 
-            this.but_Teacher.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(185)))), ((int)(((byte)(220)))));
-            this.but_Teacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.but_Teacher.Location = new System.Drawing.Point(357, 385);
-            this.but_Teacher.Name = "but_Teacher";
-            this.but_Teacher.Size = new System.Drawing.Size(75, 23);
-            this.but_Teacher.TabIndex = 2;
-            this.but_Teacher.Text = "Войти";
-            this.but_Teacher.UseVisualStyleBackColor = false;
-            this.but_Teacher.Click += new System.EventHandler(this.but_Teacher_Click);
             // 
             // l_1cl
             // 
@@ -247,8 +224,6 @@
             this.Controls.Add(this.l_2cl);
             this.Controls.Add(this.l_4cl);
             this.Controls.Add(this.l_1cl);
-            this.Controls.Add(this.but_Teacher);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.l_1_Rasp);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -262,8 +237,6 @@
         #endregion
 
         private System.Windows.Forms.Label l_1_Rasp;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button but_Teacher;
         private System.Windows.Forms.Label l_1cl;
         private System.Windows.Forms.Label l_4cl;
         private System.Windows.Forms.Label l_2cl;

@@ -19,7 +19,15 @@ namespace Prakt
 
         private void but_1A_Click(object sender, EventArgs e)
         {
+            Hide();
+            _1A A1 = new _1A();
+            
+            
+            
+            A1.ShowDialog();
+            Close();
 
+            
         }
 
         private void but_1B_Click(object sender, EventArgs e)
@@ -57,13 +65,6 @@ namespace Prakt
 
         }
 
-        private void but_Teacher_Click(object sender, EventArgs e)
-        {
-            Hide();
-            Teacher Teach = new Teacher();
-            Teach.ShowDialog();
-            Close();
-
-        }
+        
     }
 }
