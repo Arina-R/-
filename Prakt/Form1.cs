@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,9 +13,16 @@ namespace Prakt
 {
     public partial class Form1 : Form
     {
+
+       
+
         public Form1()
         {
             InitializeComponent();
+            client = new TcpClient();
+            client.Connect(host, port); //подключение клиента
+            richTextBoxChat.Text += "Введите свое имя: " + '\n';
+
         }
 
         private void but_1A_Click(object sender, EventArgs e)

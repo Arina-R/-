@@ -39,12 +39,13 @@ namespace Prakt
             {
                 panel1.Visible = true;
 
-                TB_mon_1.ReadOnly = false;
+                RTB.ReadOnly = false;
             }
             else
             {
                 MessageBox.Show("Введите верный логин и пароль");
             }
         }
+
     }
 }
