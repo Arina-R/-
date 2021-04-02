@@ -29,8 +29,7 @@ namespace Server
                 // Начинаем слушать соединения
                 while (true)
                 {
-                    Console.WriteLine("Ожидаем соединение через порт {0}", ipEndPoint);
-
+                    Console.WriteLine("Ожидаем соединение через порт ", ipEndPoint);
                     // Программа приостанавливается, ожидая входящее соединение
                     Socket handler = sListener.Accept();
                     string data = null;
@@ -45,29 +44,59 @@ namespace Server
                     // Показываем данные на консоли
                     Console.Write("Полученный текст: " + data + "\n\n");
 
-                    void A1()
+                    void Mon()
                     {
-                        Console.WriteLine("Case 1");
-                        string reply = "8:00 Русский\n 8:50 математика";
+                        Console.WriteLine("Понедельник");
+                        string reply = "Понедельник\n 8:00 Литературное чтение \n 8:50 Русский язык \n 9:45 Динамическая пауза \n10:50 Технология ";
                         byte[] msg = Encoding.UTF8.GetBytes(reply);
                         handler.Send(msg);
                     }
-                    void B1()
+                    void Tue()
                     {
-                        Console.WriteLine("Case 2");
-                        string reply = "8:00 Окр мир\n 8:50 математика";
+                        Console.WriteLine("Вторник ");
+                        string reply = "Вторник\n 8:00 ИЗО \n 8:50 Русский язык \n 9:45 Динамическая пауза \n10:50 Математика ";
                         byte[] msg = Encoding.UTF8.GetBytes(reply);
                         handler.Send(msg);
                     }
+                    void Wed()
+                    {
+                        Console.WriteLine("Среда ");
+                        string reply = "Среда\n 8:00 Литературное чтение \n 8:50 Русский язык \n 9:45 Динамическая пауза \n10:50 Математика ";
+                        byte[] msg = Encoding.UTF8.GetBytes(reply);
+                        handler.Send(msg);
+                    }
+                    void Th()
+                    {
+                        Console.WriteLine("Четверг ");
+                        string reply = " Четверг\n 8:00 Окружающий мир \n 8:50 Русский язык \n 9:45 Динамическая пауза \n10:50 Математика ";
+                        byte[] msg = Encoding.UTF8.GetBytes(reply);
+                        handler.Send(msg);
+                    }
+                    void Fr()
+                    {
+                        Console.WriteLine("Пятница ");
+                        string reply = "Пятница\n 8:00 Музыка \n 8:50 Физ. культура \n 9:45 Динамическая пауза \n10:50 Технология ";
+                        byte[] msg = Encoding.UTF8.GetBytes(reply);
+                        handler.Send(msg);
+                    }
+                   
 
                     switch (data)
                     {
-                        case "А1":
-                            A1();
+                        case "Понедельник":
+                            Mon();
                             break;
-                        case "Б1":
-                            B1();
-
+                        case "Вторник":
+                            Tue();
+                            break;
+                        case "Среда":
+                            Wed();
+                            break;
+                        case "Четверг":
+                            Th();
+                            break;
+                        case "Пятница":
+                            Fr();
                             break;
                     }
 

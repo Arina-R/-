@@ -20,7 +20,7 @@ namespace Prakt
         public Form1()
         {
             InitializeComponent();
-            richTextBox1.Text = "Введите сообщение: ";
+            richTextBox1.Text = "Введите день недели: ";
         }
 
     
