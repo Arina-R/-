@@ -9,4 +9,17 @@ D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.exe
 D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.pdb
 D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.Form2.resources
 D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt._1A.resources
+<<<<<<< HEAD
 D:\Арина\КИТ\3 курс\УП\Prakt\Prakt\obj\Debug\Prakt.csprojAssemblyReference.cache
+=======
+D:\Новая папка\Raspisanie\Prakt\bin\Debug\Prakt.exe.config
+D:\Новая папка\Raspisanie\Prakt\bin\Debug\Prakt.exe
+D:\Новая папка\Raspisanie\Prakt\bin\Debug\Prakt.pdb
+D:\Новая папка\Raspisanie\Prakt\obj\Debug\Prakt.csprojAssemblyReference.cache
+D:\Новая папка\Raspisanie\Prakt\obj\Debug\Prakt._1A.resources
+D:\Новая папка\Raspisanie\Prakt\obj\Debug\Prakt.Form1.resources
+D:\Новая папка\Raspisanie\Prakt\obj\Debug\Prakt.Properties.Resources.resources
+D:\Новая папка\Raspisanie\Prakt\obj\Debug\Prakt.csproj.GenerateResource.cache
+D:\Новая папка\Raspisanie\Prakt\obj\Debug\Prakt.exe
+D:\Новая папка\Raspisanie\Prakt\obj\Debug\Prakt.pdb
+>>>>>>> 8117e39524ebafe21f22a994d1d5e60b647f50ce

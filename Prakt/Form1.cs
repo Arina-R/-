@@ -19,60 +19,15 @@ namespace Prakt
         public Form1()
         {
             InitializeComponent();
-            client = new TcpClient();
-            client.Connect(host, port); //подключение клиента
-            richTextBoxChat.Text += "Введите свое имя: " + '\n';
-
-        }
-
-        private void but_1A_Click(object sender, EventArgs e)
-        {
-            Hide();
-            _1A A1 = new _1A();
             
-            
-            
-            A1.ShowDialog();
-            Close();
-
-            
-        }
-
-        private void but_1B_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void but_3A_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void but_3B_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void but_2A_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void but_2B_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void but_4A_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void but_4B_Click(object sender, EventArgs e)
-        {
 
         }
 
         
+
+        private void but_Otp_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
