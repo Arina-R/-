@@ -73,10 +73,7 @@ namespace Server
 
 
                     // Отправляем ответ клиенту\
-                    /*string reply = "Спасибо за запрос в " + data.Length.ToString()
-                            + " символов";
-                    byte[] msg = Encoding.UTF8.GetBytes(reply);
-                    handler.Send(msg);*/
+                    
 
                     if (data.IndexOf("<TheEnd>") > -1)
                     {
